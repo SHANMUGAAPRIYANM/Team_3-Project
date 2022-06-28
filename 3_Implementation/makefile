@@ -19,7 +19,7 @@ INC = -Iinc\
 ifdef OS
    RM = del /q
    FixPath = $(subst /,\,$1)
-   EXEC = out
+   EXEC = exe
    IN=
 else
    ifeq ($(shell uname), Linux)
